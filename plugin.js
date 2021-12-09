@@ -6,7 +6,7 @@ function dateCalcNow() {
 	// document.getElementById("nowTime").innerHTML = "Time : " + d.getHours() + ":" + d.getMinutes() + d.getSeconds();
 	var timeStringNew = timeString(d);
 	document.getElementById("nowTime").innerHTML = "Time : " + timeStringNew;
-	document.getElementById("nowMonth").innerHTML = "Month : " + d.getMonth();
+	document.getElementById("nowMonth").innerHTML = "Month : " + Number(d.getMonth()+1);
 	document.getElementById("nowDay").innerHTML = "Day : " + d.getDate();
 	document.getElementById("nowYear").innerHTML = "Year : " + d.getFullYear();
 }
