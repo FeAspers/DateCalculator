@@ -4,7 +4,6 @@ const month = ["January", "February", "March", "April", "May", "June", "July", "
 
 function dateCalcNow() {
 	var d = new Date();
-	document.getElementById("nowDate").innerHTML = '<h3 style="border:2px solid Red;">' + "Present Date & Time : " + d.toString() + "</h3>;
 	// document.getElementById("nowTime").innerHTML = "Time : " + d.getTime();
 	// document.getElementById("nowTime").innerHTML = "Time : " + d.getHours() + ":" + d.getMinutes() + d.getSeconds();
 	var timeStringNew = timeString(d);
